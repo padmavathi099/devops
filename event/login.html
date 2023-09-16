@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Eventify</title>
+</head>
+<style>
+   body {
+    margin: 0;
+    padding: 0;
+    background-image: url('blank2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 12%;
+}
+
+
+#login-form {
+    background-color: #174971;
+   
+    border-radius: 10px;
+   
+    padding: 2rem;
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(27, 18, 92, 0.1);
+    box-align: left;
+}
+#login1-form
+{
+    background-color: rgba(88, 123, 139, 0.9);
+    
+    border-radius: 10px;
+   
+    padding: 2rem;
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(27, 18, 92, 0.1);
+    box-align: left;
+
+}
+.event-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+.event-image {
+    width:100px;
+    height: 100px;
+    border-radius: 5px;
+}
+.event-details {
+    flex: 1;
+}
+
+</style>
+<body>
+   
+    <main>
+        <div id="login-form">
+      <h2>Login</h2>
+            <form id="login1-form" action= "login.php" method="post">
+             <label for="email">Email</label><br>
+              <input type="text" id="email" name="email" placeholder="enter email id" required><br><br>
+              <label for="password">Password</label><br>
+              <input type="password" id="password" name="password" placeholder="enter password" required><br>
+                <br>
+                <br>
+                <input type="submit" value="Login" onclick="showAlert()">  
+            </form>
+        </div>
+            
+    </main>
+    <script>
+        function showAlert()
+        {
+          alert('Login sucessful')
+        }
+      </script>
+</body>
+</html>

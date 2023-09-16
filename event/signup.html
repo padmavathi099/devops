@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Eventify</title>
+</head>
+<style>
+   body {
+    margin: 0;
+    padding: 0;
+    background-image: url('blank2.jpg');
+    background-size: 1350px 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+    overflow: hidden;
+}
+
+
+#login-form {
+    background-color: #174971;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(27, 18, 92, 0.1);
+    box-align: left;
+}
+#login1-form
+{
+    background-color: rgba(88, 123, 139, 0.9);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(27, 18, 92, 0.1);
+    box-align: left;
+
+}
+
+</style>
+<body>
+    <main>
+      <div id="login-form">
+      <h2>Signup</h2>
+            <form id="login1-form" action="connect.php" method="post">
+              <label for="username">Username</label> <br>
+              <input type="text" id="username" name="username"placeholder="enter username" required><br><br>
+              <label for="email">Email</label><br>
+              <input type="text" id="email" name="email" placeholder="enter email id" required><br><br>
+              <label for="phoneno">Phone Number</label> 
+              <input type="text" id="phoneno" name="phoneno" placeholder="enter phoneno" required><br><br>
+                
+      
+              <label for="password">Password</label><br>
+              <input type="password" id="password" name="password" placeholder="enter password" required><br>
+            
+               <br>
+                <br>
+                
+                <input type="submit" value="Register" onclick="showAlert()">
+
+                <script>
+                  function showAlert()
+                  {
+
+                      alert("Registered Successfully"+ "\n" +"Now you will be heading to Home Page.");
+                    //alert('Registered sucessfully.\nNow you will be heading to Home Page.');
+                  
+                  }
+                  
+                </script>
+            </form>
+            <br>
+            <br>
+    
+        </div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Event Booking System</title>
+</head>
+<style>
+ *{
+
+    margin:0px;
+    padding:0px; 
+    box-sizing: border-box;
+    }
+
+body{
+
+width:100%;
+
+background-image: url("bgf.jpg"); 
+background-size: 1350px 600px;
+
+background-repeat: no-repeat;
+}
+
+nav{
+
+    width:100%;
+
+    background-color: #174971; 
+    height: 75px; 
+   Line-height: 75px; 
+   padding:0px 120px;
+
+}
+nav img {
+    height: 50px; /* Adjust the height as needed */
+    width: 80px; /* Set the width equal to the height to make it square */
+    margin-left: -9%; /* Adjust the margin for positioning */
+    margin-top: 1%; /* Adjust the margin for positioning */
+    float: left; /* Make the logo float to the left */
+    border-radius: 100%; /* Create a circular shape */
+    overflow: hidden; /* Hide any overflow beyond the circular shape */
+  }
+
+nav h1{ 
+
+     font-size: 32px; 
+     font-family: serif; 
+     color: black;
+     text-transform: uppercase;
+     float: left;
+}
+
+nav ul{
+    float:right;
+    margin-left: -9%;
+}
+nav ul li{
+    float:left;
+    list-style: none;
+    position:relative;
+}
+nav ul li a{
+    text-decoration:none;
+    font-family: sans-serif;
+    color: black;
+    font-size:17px;
+    padding:0px 16px;
+    display : block;
+}
+
+nav ul li a:hover{
+    background-color: grey;
+}
+nav ul li ul
+{
+    position : absolute;
+    display : none;
+    background-color:#174971;
+    border-radius : 0px 0px 5px 5px;
+}
+nav ul li:hover ul{
+    display :block;
+}
+nav ul li ul li {
+    line-height: 1;
+    width:190px;
+    border-radius :5px;
+    padding : 6px;
+}
+nav ul li ul li a{
+   padding: 10px 16px;
+}
+nav ul li ul li a:hover
+{
+    background-color: grey;
+}
+</style>
+<body>
+    <nav>
+        <img src="logo.png" alt="Your Logo">
+        
+        <h1>Eventify</h1>
+        
+        <ul>
+
+          <li><a href="about.html">About Us</a></li>
+        
+        
+            <li><a href="service.html">Services</a>
+        
+                <ul>
+                   <li><a href="">Weddings</a></li>
+        
+                    <li><a href="">Functions</a></li>
+        
+                    <li><a href="">Concerts</a></li>
+        
+                   <li><a href="">Conferences</a></li>
+        
+                </ul>
+        
+            </li>
+            <li><a href="reachus.html">Reach Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+         <li><a href="signup.html">Sign Up</a></li>
+         <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

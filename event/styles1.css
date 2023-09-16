@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('bgf.jpg');
+    background-attachment: fixed;
+    background-size: 1350px 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: serif;
+}
+h5 {
+    font-family: sans-serif;
+}
+
+/* Rest of your styling */
+/*header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}*/
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#login-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: auto;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.event-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+.event-image {
+    width:20px;
+    height: 20px;
+    border-radius: 5px;
+}
+.event-details {
+    flex: 1;
+}
+
+ul {
+    list-style-type: none;
+    float: left;
+    padding: 12px;
+    position: fixed;
+    overflow: hidden;
+    margin-top: -2%;
+    background-color: #0b0404;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    width: 950pt;
+    height: 50pt;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(81, 78, 78);
+  }
+  .active {
+    background-color:black;
+  }
